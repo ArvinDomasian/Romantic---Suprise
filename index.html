@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffe6ee" />
+    <title>A Little Flower For You</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app" aria-live="polite">
+      <section class="screen screen-active intro" data-screen="intro">
+        <div class="petals" aria-hidden="true"></div>
+        <p class="eyebrow">I made this for you</p>
+        <h1>A little flower, just for you.</h1>
+        <button class="primary-button" type="button" data-start>Open</button>
+      </section>
+
+      <section class="screen garden" data-screen="garden">
+        <div class="sky-glow" aria-hidden="true"></div>
+        <div class="flower-scene" aria-label="A flower growing and blooming">
+          <div class="sparkles" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="magic-ring" aria-hidden="true"></div>
+          <div class="petal-burst" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="tiny-hearts" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="soil" aria-hidden="true"></div>
+          <div class="flower" aria-hidden="true">
+            <div class="stem"></div>
+            <div class="leaf leaf-left"></div>
+            <div class="leaf leaf-right"></div>
+            <div class="bloom">
+              <span class="petal petal-1"></span>
+              <span class="petal petal-2"></span>
+              <span class="petal petal-3"></span>
+              <span class="petal petal-4"></span>
+              <span class="petal petal-5"></span>
+              <span class="petal petal-6"></span>
+              <span class="center"></span>
+            </div>
+          </div>
+        </div>
+        <p class="message">Here are flowers for you.</p>
+      </section>
+
+      <section class="screen question" data-screen="question">
+        <p class="eyebrow">One tiny question</p>
+        <h2>Can you be my gf?</h2>
+        <div class="button-stage" data-button-stage>
+          <button class="yes-button" type="button" data-yes>Yes</button>
+          <button class="no-button" type="button" data-no>No</button>
+        </div>
+        <p class="tap-count" data-tap-count aria-hidden="true"></p>
+      </section>
+
+      <section class="screen please" data-screen="please">
+        <div class="heart-burst" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="eyebrow">wait...</p>
+        <h2>why :(</h2>
+        <p class="plea">Please, can you be my gf?</p>
+        <button class="primary-button" type="button" data-final-yes>Okay yes</button>
+      </section>
+
+      <section class="screen celebration" data-screen="celebration">
+        <div class="confetti" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <h2>Yay!</h2>
+        <p>You just made this little flower the happiest one.</p>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
